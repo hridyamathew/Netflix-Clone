@@ -430,9 +430,9 @@ nav {
   gap: 45px; /* Was 5rem; now smaller */
 }
 
-@media (max-width: 500px) {
+@media (max-width: 480px) {
   nav {
-    gap: 80px;
+    gap: 40px;
   }
 
   nav img {

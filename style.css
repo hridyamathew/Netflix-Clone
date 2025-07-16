@@ -560,7 +560,7 @@ nav {
   }
 
   .restart input {
-    padding: 12px 180px 12px 20px;
+    padding: 12px 100px 12px 20px;
   }
   .restart a {
     display: inline-flex;
@@ -580,7 +580,7 @@ nav {
   }
 
   #down-started input {
-    padding: 12px 180px 12px 20px;
+    padding: 12px 100px 12px 20px;
   }
 
   #down-started a {

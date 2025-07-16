@@ -158,17 +158,18 @@ nav {
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-  background-color: rgba(87, 86, 86, 0.7);
+/*   background-color: rgba(87, 86, 86, 0.7);
   padding: 60px 11px;
-  border-radius: 8px;
+  border-radius: 8px; */
+  display: none;
 }
 
-.carousel-control-prev-icon {
+/* .carousel-control-prev-icon {
   margin-right: 180px;
 }
 .carousel-control-next-icon {
   margin-left: 180px;
-}
+} */
 
 .movie-img {
   height: 240px;

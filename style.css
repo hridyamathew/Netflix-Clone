@@ -431,8 +431,21 @@ nav {
 }
 
 @media (max-width: 480px) {
+  #language {
+    display: none;
+  }
+
+  #down-button {
+    display: none;
+  }
+
+  #lang-icon {
+    display: none;
+  }
+
   nav {
-    gap: 40px;
+    gap: 1px;
+    justify-content: space-around;
   }
 
   nav img {
@@ -440,12 +453,12 @@ nav {
   }
 
   #language {
-    font-size: 14px;
+    font-size: 12px;
     padding: 4px 33px 4px 35px;
   }
 
   .sign-button {
-    padding: 5px 13px;
+    padding: 5px 15px;
     border-radius: 4px;
     font-size: 14px;
     font-weight: bold;
@@ -479,7 +492,7 @@ nav {
   }
 
   .header-content input {
-    padding: 12px 170px 12px 20px;
+    padding: 12px 150px 12px 20px;
   }
   .header-content a {
     font-size: 17px;
@@ -541,8 +554,6 @@ nav {
     font-size: 23px;
   }
 
-
-
   .restart p {
     text-align: left;
     font-size: 15px;
@@ -584,10 +595,10 @@ nav {
   }
 
   .carousel-control-prev-icon {
-    margin-right: 90px;
+    margin-right: 80px;
   }
   .carousel-control-next-icon {
-    margin-left: 90px;
+    margin-left: 80px;
   }
 
   .carousel-control-prev-icon,
@@ -597,15 +608,17 @@ nav {
   }
 
   .number {
-    left: -1px;
+    /* left: -1px;
     top: 80px;
-    font-size: 35px;
+    font-size: 35px; */
+    display: none;
   }
 
   #four {
-    left: -1px;
+    /* left: -1px;
     top: 80px;
-    font-size: 35px;
+    font-size: 35px; */
+    display: none;
   }
 
   .carousel-item .d-flex {

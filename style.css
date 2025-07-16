@@ -435,32 +435,31 @@ nav {
     display: none;
   }
 
-  #down-button {
+  #down-button{
     display: none;
   }
-
-  #lang-icon {
+  #lang-icon{
     display: none;
   }
 
   nav {
     gap: 1px;
-    justify-content: space-around;
+    padding: 0px 8px;
   }
 
   nav img {
-    width: 130px;
+    width: 80px;
   }
 
   #language {
-    font-size: 12px;
+    font-size: 14px;
     padding: 4px 33px 4px 35px;
   }
 
   .sign-button {
-    padding: 5px 15px;
+    padding: 5px 13px;
     border-radius: 4px;
-    font-size: 14px;
+    font-size: 10px;
     font-weight: bold;
   }
 
@@ -492,7 +491,7 @@ nav {
   }
 
   .header-content input {
-    padding: 12px 150px 12px 20px;
+    padding: 12px 170px 12px 20px;
   }
   .header-content a {
     font-size: 17px;
@@ -560,7 +559,7 @@ nav {
   }
 
   .restart input {
-    padding: 12px 100px 12px 20px;
+    padding: 12px 180px 12px 20px;
   }
   .restart a {
     display: inline-flex;
@@ -580,7 +579,7 @@ nav {
   }
 
   #down-started input {
-    padding: 12px 20px 12px 20px;
+    padding: 12px 180px 12px 20px;
   }
 
   #down-started a {
@@ -591,35 +590,32 @@ nav {
 
   .trending h4 {
     font-size: 18px;
-    margin: 15px 0px;
+    margin: 20px 0px;
   }
 
-/*   .carousel-control-prev-icon {
-    margin-right: 80px;
+  .carousel-control-prev-icon {
+    margin-right: 90px;
   }
   .carousel-control-next-icon {
-    margin-left: 80px;
-  } */
+    margin-left: 90px;
+  }
 
   .carousel-control-prev-icon,
   .carousel-control-next-icon {
-/*     padding: 40px 8px;
-    border-radius: 8px; */
-    display: none;
+    padding: 40px 8px;
+    border-radius: 8px;
   }
 
   .number {
-    /* left: -1px;
+    left: -1px;
     top: 80px;
-    font-size: 35px; */
-    display: none;
+    font-size: 35px;
   }
 
   #four {
-    /* left: -1px;
+    left: -1px;
     top: 80px;
-    font-size: 35px; */
-    display: none;
+    font-size: 35px;
   }
 
   .carousel-item .d-flex {
